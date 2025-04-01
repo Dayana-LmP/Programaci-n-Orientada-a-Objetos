@@ -25,7 +25,7 @@ L = float(input())
 
 
 print("El perímetro es:"  , Figura.perimetro(L, NL), " cm")
-=======
+
 from math import *
 
 class Figura:

@@ -1,28 +1,3 @@
-from enum import Enum
-
-# Definimos un Enum para los días de la semana
-class DiaDeLaSemana(Enum):
-    LUNES = 1
-    MARTES = 2
-    MIERCOLES = 3
-    JUEVES = 4
-    VIERNES = 5
-    SABADO = 6
-    DOMINGO = 7
-
-# Usamos el Enum en una función que muestra si es día de trabajo o fin de semana
-def es_dia_de_trabajo(dia):
-    if dia in [DiaDeLaSemana.LUNES, DiaDeLaSemana.MARTES, DiaDeLaSemana.MIERCOLES, DiaDeLaSemana.JUEVES, DiaDeLaSemana.VIERNES]:
-        return "Es día de trabajo."
-    elif dia in [DiaDeLaSemana.SABADO, DiaDeLaSemana.DOMINGO]:
-        return "Es fin de semana."
-    else:
-        return "Día no válido."
-
-# Ejemplo de uso
-dia_actual = DiaDeLaSemana.MARTES
-print(f"Hoy es {dia_actual.name} ({dia_actual.value}). {es_dia_de_trabajo(dia_actual)}")
-
 #Final
 from typing import Final
 
