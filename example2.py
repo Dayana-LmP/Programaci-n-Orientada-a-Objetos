@@ -109,8 +109,7 @@ arreglo.inicializar([0, 1, 2, 3, 4])
 print("Modificar:")
 arreglo.modificar(1, 7)  
 =======
-from numpy import array
-import numpy as np
+
 #listas
 class Lista:
     def __init__(self):

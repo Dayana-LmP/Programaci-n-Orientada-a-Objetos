@@ -1,4 +1,4 @@
-#try except finally
+#Practica 12: try except finally
 class GestorDeArchivos:
     def __init__(self, nombre_archivo: str):
         self.nombre_archivo = nombre_archivo
