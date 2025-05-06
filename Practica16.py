@@ -2,18 +2,18 @@
 import threading 
 import time
 
-class hilo(threading.thread):
+class hilo(threading.Thread):
     def __init__(self, nombre, intervalo):
         super().__init__()
         self.nombre = nombre
         self.intervalo = intervalo
 
     def run(self):
-        print(f"El hilo {self.nombre} ha comenzado")
+        print(f"El {self.nombre} ha comenzado")
         for i in range(5):
-            print(f" El hilo {self.nombre} se encuentra en iteración{i}")
-            time.sleeep(self.intervalo)
-        print(f"El hilo {self.nombre} ha finalizado")
+            print(f" El {self.nombre} se encuentra en iteración {i}")
+            time.sleep(self.intervalo)
+        print(f"El {self.nombre} ha finalizado")
 hilo1 = hilo("hilo1", 2)
 hilo2 = hilo("hilo2", 4)
 
