@@ -1,2 +1,2 @@
 # Programaci-n-Orientada-a-Objetos
-Programación orientada a objetos
+Clase 3
