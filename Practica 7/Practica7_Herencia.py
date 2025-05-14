@@ -12,18 +12,27 @@ class Perro(Animal):
         super().__init__(tipoAnimal)
 
     def hacer_sonido(self):
-        print(f" {self.tipoAnimal} ¡Guau!")
+        print(f"{self.tipoAnimal} ¡Guau!")
 
 class Gato(Animal):
     def __init__(self, tipoAnimal):
         super().__init__(tipoAnimal)
 
     def hacer_sonido(self):
-        print(f" {self.tipoAnimal} ¡Miau!")
+        print(f"{self.tipoAnimal} ¡Miau!")
 
 class Gallo(Animal):
     def __init__(self, tipoAnimal):
         super().__init__(tipoAnimal)
 
     def hacer_sonido(self):
-        print(f" {self.tipoAnimal} ¡Kikirikikiriki!")
+        print(f"{self.tipoAnimal} ¡Kikirikikiriki!")
+
+#Sonido
+perro = Perro("Perro")
+gato = Gato("Gato")
+gallo = Gallo("Gallo")
+
+perro.hacer_sonido()
+gato.hacer_sonido()
+gallo.hacer_sonido()
