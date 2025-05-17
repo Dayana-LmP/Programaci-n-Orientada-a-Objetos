@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from numpy import array
 import numpy as np
 #listas
@@ -108,7 +108,6 @@ arreglo = Arreglo()
 arreglo.inicializar([0, 1, 2, 3, 4])
 print("Modificar:")
 arreglo.modificar(1, 7)  
-=======
 
 #listas
 class Lista:
@@ -217,5 +216,4 @@ arreglo = Arreglo()
 arreglo.inicializar([0, 1, 2, 3, 4])
 print("Modificar:")
 arreglo.modificar(1, 7)  
->>>>>>> 27614648ad4b5f4a0ff3c24a79e3179f9f5714a4
 arreglo.mostrar()
