@@ -2,7 +2,7 @@
 from numpy import array
 import numpy as np
 
-# Clase que usa arreglos con paquetes Numpy
+#Clase que usa arreglos con paquetes Numpy
 class Arreglo:
     def inicializar(self, V):
         self.arregloNP = np.array(V)
@@ -19,7 +19,7 @@ class Arreglo:
     def mostrar(self):
         print("Arreglo:", self.arregloNP)
 
-# Clase que utiliza listas, no Numpy
+#Clase que utiliza listas, no Numpy
 class Lista:
     def inicializar(self, V):
         self.arregloList = list(V)
@@ -36,7 +36,7 @@ class Lista:
     def mostrar(self):
         print("Lista:", self.arregloList)
 
-# Mostrar como se utilizan 
+#Mostrar como se utilizan 
 print("Uso de paquetes Numpy")
 arr = Arreglo()
 arr.inicializar([1, 2, 3, 4])

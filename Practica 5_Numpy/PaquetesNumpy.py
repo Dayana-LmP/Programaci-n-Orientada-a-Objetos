@@ -19,25 +19,24 @@ class Arreglo:
     def mostrar(self):
         print(self.arregloNP)
 
-# Ejemplo de uso
+#Como utilizarlo
 arreglo = Arreglo()
 
-# Inicializar
 arreglo.inicializar([0, 1, 2, 3, 4])
 print("Arreglo original:")
 arreglo.mostrar()
 
-# Insertar
+#Insertar
 print("Función Insertar: insertar 5 en la posición 2:")
 arreglo.insertar(2, 5)
 arreglo.mostrar()
 
-# Eliminar
+#Eliminar
 print("Función Eliminar: eliminar elemento en la posición 3:")
 arreglo.eliminar(3)
 arreglo.mostrar()
 
-# Modificar
+#Modificar
 print("Función Modificar: modificar elemento en la posición 1 a 7:")
 arreglo.modificar(1, 7)
 arreglo.mostrar()
