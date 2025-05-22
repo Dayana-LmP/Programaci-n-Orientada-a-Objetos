@@ -22,7 +22,7 @@ class CocheElectrico(Vehiculo, Electrico):
     
     def informacion(self):
             return f"{Vehiculo.informacion(self)} - Autonomía: {self.autonomia} km"
-# Uso
+#Uso
 BYD = CocheElectrico("BYD", "Mini Dolphin", 450)
 print(BYD.informacion())
 print(BYD.cargar())

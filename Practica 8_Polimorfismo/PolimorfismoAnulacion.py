@@ -1,18 +1,18 @@
-#Polimorfismo de anulación python, ejemplo presentación
+#Práctica 8: Polimorfismo de anulación python
 
 class Forma:
     def dibujar(self):
-        return "Dibujando una forma"
+        return "Dibujar una figura"
     
     def area(self):
-        return "Calculando área de forma genérica"
+        return "Calcular área de forma genérica"
 
 class Circulo(Forma):
     def __init__(self, radio):
         self.radio = radio
         
     def dibujar(self): # Sobrescribe el método de la clase base
-        return "Dibujando un círculo"
+        return "Dibujando un círculo..."
     
     def area(self): # Sobrescribe y especializa el cálculo
         return 3.14159 * self.radio * self.radio
@@ -31,6 +31,7 @@ class Rectangulo(Forma):
 def procesar_forma(forma):
         print(forma.dibujar())
         print(f"Área: {forma.area()}")
+        
 # Diferentes objetos responden de manera específica
 procesar_forma(Circulo(5))
 procesar_forma(Rectangulo(4, 6))
