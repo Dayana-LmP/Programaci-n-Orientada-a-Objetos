@@ -7,31 +7,32 @@ class Forma:
     def area(self):
         return "Calcular área de forma genérica"
 
-class Circulo(Forma):
-    def __init__(self, radio):
-        self.radio = radio
-        
-    def dibujar(self): # Sobrescribe el método de la clase base
-        return "Dibujando un círculo..."
-    
-    def area(self): # Sobrescribe y especializa el cálculo
-        return 3.14159 * self.radio * self.radio
+class Rombo(Forma):
+    def __init__(self, diagonalMayor, diagonalMenor):
+        self.diagonalMayor = diagonalMayor
+        self.diagonalMenor = diagonalMenor
 
-class Rectangulo(Forma):
-    def __init__(self, ancho, alto):
-        self.ancho = ancho
-        self.alto = alto
+    def dibujar(self): #Sobrescribe el método de la clase base
+        return "Dibujando un rombo..."
+    
+    def area(self): #Sobrescribe y especializa el cálculo
+        return ((self.diagonalMayor * self.diagonalMenor)/2)
+
+class Cuadrado(Forma):
+    def __init__(self, lado):
+        self.lado = lado
+    
         
-    def dibujar(self): # Otra implementación del mismo método
-        return "Dibujando un rectángulo"
+    def dibujar(self): #Otra implementación del mismo método
+        return "Dibujando un cuadrado..."
     
     def area(self):
-        return self.ancho * self.alto
-# Uso polimórfico
+        return self.lado * 4
+#Uso del polimorfismo
 def procesar_forma(forma):
         print(forma.dibujar())
         print(f"Área: {forma.area()}")
-        
-# Diferentes objetos responden de manera específica
-procesar_forma(Circulo(5))
-procesar_forma(Rectangulo(4, 6))
+
+#Diferentes objetos responden de manera específica
+procesar_forma(Rombo(8, 6))
+procesar_forma(Cuadrado(5))
