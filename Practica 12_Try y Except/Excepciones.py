@@ -1,4 +1,5 @@
-#Excepciones en python
+#Práctica 12: Try, except
+# Excepciones en python
 
 try:
     x = 10 / 0 # Esto generará una excepción ZeroDivisionError
