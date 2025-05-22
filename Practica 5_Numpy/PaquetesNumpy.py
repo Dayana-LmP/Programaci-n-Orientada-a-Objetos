@@ -1,4 +1,5 @@
-#Práctica 5, uso de paquetes Numpy
+#Práctica 5: Manejo de paquetes Numpy
+#Declarar clase arreglos, una clase para lista y otra para numpy
 from numpy import array
 import numpy as np
 
