@@ -1,4 +1,5 @@
-#Declarar clase arreglos, una clase para lista y otra para numpy
+#Práctica 5: Manejo de paquetes Numpy
+#Utilizar Numpy y listas, con las mismas funciones cada una.
 from numpy import array
 import numpy as np
 
