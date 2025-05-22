@@ -1,3 +1,7 @@
+#Práctica 15: Flask
+#Flask con dirección IP, abre una página la cual tiene el siguiente mensaje: "You don't have the permission to access the requested resource. 
+# It is either read-protected or not readable by the server."
+
 from flask import Flask, request, abort
 
 app = Flask(__name__)
