@@ -37,7 +37,8 @@ class Lista:
     def mostrar(self):
         print("Lista:", self.arregloList)
 
-#Mostrar como se utilizan 
+#Mostrar como se utilizan
+#Numpy
 print("Uso de paquetes Numpy")
 arr = Arreglo()
 arr.inicializar([1, 2, 3, 4])
@@ -52,6 +53,8 @@ arr.mostrar()
 arr.modificar(0, 77)
 arr.mostrar()
 
+print() #Espacio
+#Listas
 print("Uso de listas")
 lis = Lista()
 lis.inicializar([10, 20, 30, 40])
