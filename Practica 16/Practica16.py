@@ -1,4 +1,4 @@
-#Práctica 16: Hilos y red
+#Práctica 16: Hilos y red (asíncrono)
 import threading 
 import time
 
