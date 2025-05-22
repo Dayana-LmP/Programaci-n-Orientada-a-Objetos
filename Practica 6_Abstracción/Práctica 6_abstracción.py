@@ -1,4 +1,5 @@
 #Práctica 6 abstracción
+#Calcular área del cuadrado y triángulo
 
 from abc import ABC, abstractmethod
 
@@ -20,7 +21,7 @@ class Triangulo(FiguraGeometrica): #Subclase triángulo
     def calcular_area(self):
         return ((self.base * self.altura)/2)
     
-#Crear el objetos, imprimir área
+#Crear el objetos e imprimir área
 cuadrado = Cuadrado(4)
 print(f"El área del cuadrado es: {cuadrado.calcular_area()}")
 
