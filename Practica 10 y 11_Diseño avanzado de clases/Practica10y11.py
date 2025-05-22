@@ -26,6 +26,7 @@ class Rectangulo(Figura): #Clase concreta
 circulo = Circulo(5)
 rectangulo = Rectangulo(4, 5)
 
+#print(f"Área del círculo: {circulo.calcular_area()}") Mostrar decimales normales
 print(f"Área del círculo: {circulo.calcular_area():.2f}") #Solo mostrar dos decimales
 print(f"Área del rectángulo: {rectangulo.calcular_area()}")
 
