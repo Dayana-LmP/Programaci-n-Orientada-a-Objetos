@@ -1,3 +1,4 @@
+#Práctica 3: Programa de figuras unificando el cálculo de área del polígono -  Área y perímetro
 from math import *
 
 class Figura:

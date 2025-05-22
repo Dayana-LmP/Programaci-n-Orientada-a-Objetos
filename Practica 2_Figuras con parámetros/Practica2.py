@@ -1,3 +1,4 @@
+#Práctica 2: Programa de figuras con parámetros
 from math import *
 
 class Figura:
