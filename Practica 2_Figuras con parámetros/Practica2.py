@@ -24,7 +24,7 @@ class Figura:
         else:
             return "inválida. Solo de 3 a 5 lados"
 
-
+#Imprimir resultado
 print("Introduce el número de lados")
 NL = int(input())
 print("Introduce el valor del lado")
@@ -33,5 +33,5 @@ L = int(input())
 print(f"El área es: {Figura.area(L, NL)} cm2") #Imprime el valor del área
 print(f"El perímetro es: {Figura.perimetro(L, NL)} cm") #Imprime el valor del perímetro
 
-#print(f"El área es: {Figura.area(L, NL)} cm2") #Imprime el valor del área
+
 

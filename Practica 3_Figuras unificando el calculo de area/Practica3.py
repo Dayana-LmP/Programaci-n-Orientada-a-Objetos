@@ -16,7 +16,7 @@ class Figura:
               a=((NL*L*L)/(4*(tan(pi/NL))))
         return a
 
-
+#Imprimir resultados
 print("Introduce el número de lados")
 NL = int(input())  
 print("Introduce el valor del lado")
