@@ -1,3 +1,4 @@
+#Práctica 6: Abstracción
 #Abstracción dando el valor del lado, la base y la altura
 from abc import ABC, abstractmethod
 
@@ -21,8 +22,8 @@ class Rectangulo(Figura):
     def area(self):
         return (self.base * self.altura)
 
-# Abstracción
+#Abstracción
 cuadrado = Cuadrado(4) #Valor del lado
-print(f"El área del cuadrado es: {cuadrado.area()}")  # Implementar el método abstracto
+print(f"El área del cuadrado es: {cuadrado.area()}")  #Implementar el método abstracto
 rectangulo = Rectangulo(4,5) #Valor de la base, altura
 print(f"El área del rectángulo es: {rectangulo.area()}")
