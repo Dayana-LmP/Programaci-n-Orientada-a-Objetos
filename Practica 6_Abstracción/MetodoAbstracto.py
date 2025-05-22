@@ -1,4 +1,4 @@
-#Práctica 6-Método abstracto en python, ejemplo de la presentacion.
+#Práctica 6-Método abstracto en python.
 
 from abc import ABC, abstractmethod
 

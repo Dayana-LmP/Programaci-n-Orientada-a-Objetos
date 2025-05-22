@@ -1,4 +1,4 @@
-#Herencia simple en python, ejemplo presentación
+#Práctica 7: Herencia simple en python.
 class Animal:
     def __init__(self, nombre, edad):
         self.nombre = nombre

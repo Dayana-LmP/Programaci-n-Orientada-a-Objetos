@@ -1,4 +1,4 @@
-#Herencia múltiple en python, ejemplo presentación
+#Práctica 7: Herencia múltiple en python
 
 class Vehiculo:
     def __init__(self, marca, modelo):
