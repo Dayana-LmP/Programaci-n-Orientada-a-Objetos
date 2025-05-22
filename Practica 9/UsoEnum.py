@@ -1,4 +1,5 @@
-#Enum 
+#Práctica 9: Enum 
+
 from enum import Enum
 class Consecutivo(Enum): #clase que va a tener enum
     Lunes=1 #enumeración
