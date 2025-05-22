@@ -102,7 +102,10 @@ mi_lista.mostrar()
 mi_lista.index(3)
 mi_lista.count(2)
 mi_lista.existe(4)
+mi_lista.modificar(2, 22) 
+mi_lista.eliminar(4)     
 mi_lista.existe(10)
+mi_lista.mostrar()
 
 #Probando la clase Arreglo
 print()
