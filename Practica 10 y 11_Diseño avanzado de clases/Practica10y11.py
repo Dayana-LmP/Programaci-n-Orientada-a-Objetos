@@ -1,4 +1,4 @@
-#Práctica 10 y 11: Diseño avanzado de clasas
+#Práctica 10 y 11: Diseño avanzado de clases (Abstracción)
 #Abstracción
 from math import pi
 from abc import ABC, abstractmethod

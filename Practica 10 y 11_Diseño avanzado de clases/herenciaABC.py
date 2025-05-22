@@ -1,4 +1,4 @@
-#Herecia múltiple ABC
+#Práctica 10 y 11: Diseño avanzado de clases (Herecia múltiple ABC)
 
 from abc import ABC, abstractmethod
 class Vehiculo(ABC):
@@ -21,10 +21,10 @@ class CocheElectrico(Vehiculo, Electrico):
 #Instancia de la clase CocheElectrico
 coche = CocheElectrico()
 
-# Método mover() 
+#Método mover() 
 mensajeMovimiento = coche.mover()
 print(mensajeMovimiento)
 
-# Método cargar()
+#Método cargar()
 mensajeCarga = coche.cargar()
 print(mensajeCarga)

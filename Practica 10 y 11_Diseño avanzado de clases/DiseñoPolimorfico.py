@@ -1,3 +1,4 @@
+#Práctica 10 y 11: Diseño avanzado de clases (4 pilares)
 #Estructura básica, pasos:
 #1-.Crear una clase abstracta
 #2-.Definir dos interfaces
@@ -59,10 +60,10 @@ class Coche(Vehiculo, Conducible, Mantenible):
     def reparar(self):
         return "El coche ha sido reparado."
 
-# Crear una instancia de la clase Coche
+#Crear una instancia de la clase Coche
 mi_coche = Coche()
 
-# Llamar a uno de los métodos e imprimir el resultado
+#Llamar a uno de los métodos e imprimir el resultado
 resultadoMovimiento = mi_coche.mover()
 print(resultadoMovimiento)
 

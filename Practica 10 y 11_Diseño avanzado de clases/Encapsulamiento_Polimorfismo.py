@@ -1,10 +1,11 @@
-#Diseño avanzado de clases Polimorfismo y encapsulamiento
+#Práctica 10 y 11: Diseño avanzado de clases (Polimorfismo y encapsulamiento)
 from abc import ABC, abstractmethod
 
+#Encapsulamiento
 class Vehiculo(ABC):
     def __init__(self, marca, modelo):
-        self._marca = marca  # Atributo privado
-        self._modelo = modelo # Atributo privado
+        self._marca = marca  #Atributo privado
+        self._modelo = modelo #Atributo privado
 
     def obtener_marca(self):
         return self._marca
@@ -23,7 +24,7 @@ class Vehiculo(ABC):
 class Coche(Vehiculo):
     def __init__(self, marca, modelo, velocidad_actual=0):
         super().__init__(marca, modelo)
-        self._velocidad_actual = velocidad_actual  # Atributo privado
+        self._velocidad_actual = velocidad_actual  #Atributo privado
 
     def acelerar(self):
         self._velocidad_actual += 100
@@ -52,7 +53,7 @@ class Bicicleta(Vehiculo):
         else:
             return f"La bicicleta {self._marca} {self._modelo} ya está detenida."
 
-# Polimorfismo 
+#Polimorfismo 
 def probar_vehiculo(vehiculo):
     print(vehiculo.acelerar())
     print(vehiculo.frenar())
