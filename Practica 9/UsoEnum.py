@@ -6,6 +6,7 @@ class Consecutivo(Enum): #clase que va a tener enum
     Martes=2
     Miercoles=3
 
+#Imprimir resultados
 print(Consecutivo.Lunes)  #número de la numeración
 print(Consecutivo.Lunes.value)
 print(type(Consecutivo.Lunes)) #Tipo de dato
